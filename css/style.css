@@ -1,6 +1,15 @@
 body{
     padding: 0px auto;
+    
 }
+
+.text-input{
+    width: 100%;
+    height: 45px;
+    font-size: 1.3em;
+}
+/* HEADER */
+
 header{
     width: 100%;
     height: 66px;
@@ -12,7 +21,7 @@ header{
 }
 .logo-text{
     float: left;
-    height: 100%;
+    height: 66px;
     border: 1px solid red;
     padding: 7px;
 
@@ -23,15 +32,189 @@ header{
     float: right;
     height: 100%;
     border: 1px solid red;
+    /* overflow: hidden; */
     
 }
 
 .nav li{
     padding-right: 0px;
+    height: 66px;
+    
+    
 }
 
 .nav li a{
-    height: 100%;
+    height: 66px;
     color:yellow;
     font-size: 1.2em;
+    padding-top: 15px;
+    
+}
+
+.nav li a:hover{
+    background-color: white;
+    color:#272547;
+}
+.dropdown-menu{
+    background-color: #4bc8e7;
+    
+}
+
+/* Slider */
+
+.post-slider {
+    position: relative;
+}
+.post-slider .slider-title {
+    text-align: center;
+    margin: 30px auto;
+}
+.post-slider .next {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    font-size: 2em;
+    color: #006669;
+    cursor: pointer;
+}
+.post-slider .prev {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    font-size: 2em;
+    color: #006669;
+    cursor: pointer;
+}
+.post-slider .post-wrapper {
+    width: 84%;
+    height: 350px;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+}
+.post-slider .post-wrapper .post {
+    height: 330px;
+    width: 300px;
+    margin: 0px 10px;
+    display: inline-block;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
+}
+.post-slider .post-wrapper .post .post-info {
+    height: 130px;
+    padding: 0px 5px;
+}
+.post-slider .post-wrapper .post .slider-image {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+
+/* Main-page */
+
+/* Maincontent */
+.page-wrapper{
+    border:1px solid red;
+    max-width: 100%;
+    min-width: 100%;
+}
+.content{
+    border:1px solid red;
+    display: block;
+}
+
+.bar{
+    border:1px solid red;
+}
+
+.thumbnail{
+    padding-top:20px;
+    clear: both;
+}
+.post-image{
+    float:left;
+    width:300px;
+}
+.caption{
+    float:right;
+    width:calc(100% - 300px);
+}
+.caption .readmore{
+    float:right;
+}
+
+/* sidebar */
+.topics{
+    margin-top:30px;
+}
+
+.topics a{
+    height: 60px;
+}
+
+/* footer */
+.footer{
+    height: 400px;
+}
+.footer .about{
+    border:1px solid blue;
+    height: 90%;
+    
+}
+
+.footer .about .logo-text{
+    margin:30px;
+
+ 
+}
+
+.footer .about .about-content{
+    clear: both;
+    margin:120px 0px 0px 30px;
+    border:1px solid green;
+    font-size:1.1rem;
+    line-height: 150%;
+
+    
+}
+
+
+.footer .qlink{
+    border:1px solid black;
+    padding:30px;
+    height: 90%;
+}
+
+
+.footer .qlink a{
+    display:block;
+    color: black;
+    padding: 10px 0px 0px 45px;
+    font-size: 1.2rem;
+    list-style-type: disc;
+}
+
+.footer .contact{
+    border:1px solid blue;
+    height: 90%;
+    padding:30px;
+}
+
+.footer .contact .contact-input{
+    width: 100%;
+    margin-top: 20px;
+    height: 60%;
+}
+
+.footer .copyright{
+    height: 10%;
+    text-align: center;
+    width: 100%;
+    border:1px solid brown;
+    font-size: 1.2rem;
 }
