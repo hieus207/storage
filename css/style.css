@@ -198,7 +198,8 @@ header{
 /* footer */
 .footer{
     height: 400px;
-    padding-top: 20px;
+    margin-top: 20px;
+    background-color: #7c8080;
 }
 .footer .about{
     border:1px solid blue;
